@@ -1,6 +1,6 @@
 # Nuxt Sto
 
-<p align="center"><a href="https://poliweb.github.io/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
 
 ## Тестовое задание для веб разрабочика (Web Developer)
 
@@ -11,6 +11,8 @@
 Указать как тестировали верстку."
 
 ## Изначальный проект на Figma
+
+<img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg" width="100%">
 
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
