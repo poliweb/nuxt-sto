@@ -1,5 +1,5 @@
-# Nuxt Sto
-Тестовое задание
+# Nuxt Sto 🧑‍💻
+Тестовое задание 
 
 <p align="center"><a href="#" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
 
