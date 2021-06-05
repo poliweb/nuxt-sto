@@ -1,7 +1,7 @@
 # Nuxt Sto 🧑‍💻
 Тестовое задание 
 
-<p align="center"><a href="#" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
+<p align="center"><a href="https://focused-bhaskara-227f39.netlify.app/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
 
 ## Тестовое задание для веб разрабочика (Web Developer) 👨‍💻
 
@@ -18,6 +18,9 @@
 > Nuxt.js,
 > Vue.js
 
+#### Шрифт
+> Google Font API
+
 #### Веб-фреймворк
 > Nuxt.js
 
@@ -27,17 +30,19 @@
 #### Язык программирования
 > Node.js
 
+#### CDN
+> Netlify
+
 #### Генератор статических сайтов
 > Nuxt.js
 
-#### JS-библиотека
-> Zepto
+#### PaaS
+> Netlify
 
 #### UI Фреймворк
 > tailwindcss
 
 #### Прочее
-> Prism,
 > webpack
 
 ## Интеграция JS-фреймворк GSAP
@@ -68,6 +73,9 @@
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
 Думайте о обо мне как о продолжении вашей команды.
+
+<a href="https://focused-bhaskara-227f39.netlify.app/" target="_blank">Demo Project</a>
+
 
 # Мой принцип: LIFELONG LEARNING
 
