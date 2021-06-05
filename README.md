@@ -1,4 +1,14 @@
-# sto
+# Nuxt Sto
+
+<p align="center"><a href="https://poliweb.github.io/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/oil_01.jpg" width="400"></a></p>
+
+## Страница PoliWeb на GitHub
+
+Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
+Vue, Nuxt js, JAMstack.
+Думайте о обо мне как о продолжении вашей команды.
+
+> Мой принцип: Lifelong learning
 
 ## Build Setup
 
