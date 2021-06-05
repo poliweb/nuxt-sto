@@ -72,7 +72,7 @@
 
 ## Изначальный проект на Figma
 
-<img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg" width="100%">
+![Альтернативный текст](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg "Протатип в Figma")
 
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
