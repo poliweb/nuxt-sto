@@ -1,7 +1,7 @@
 # Nuxt Sto 🧑‍💻
 Тестовое задание 
 
-<p align="center"><a href="https://focused-bhaskara-227f39.netlify.app/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
+![Альтернативный текст](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg "Подсказка")
 
 ## Тестовое задание для веб разрабочика (Web Developer) 👨‍💻
 
@@ -72,7 +72,7 @@
 
 ## Изначальный проект на Figma
 
-![Альтернативный текст](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg "Протатип в Figma")
+![Протатип в Figma](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg "Протатип в Figma")
 
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
