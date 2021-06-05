@@ -1,4 +1,4 @@
-# sto
+# Nuxt Sto
 
 ## Build Setup
 
