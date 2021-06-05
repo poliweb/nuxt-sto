@@ -40,6 +40,26 @@
 > Prism,
 > webpack
 
+## Интеграция JS-фреймворк GSAP
+
+> Использeтся модуль "nuxt-gsap-module" для замены CSS классов при скроленге на панели NAV 
+
+```
+    // For scrollTrigger
+    animateOnScroll() {
+      this.$gsap.to(".box", {
+        scrollTrigger: {
+          start: "top -150",
+          end: 99999,
+          toggleClass: {
+            targets: ".main-tool-bar",
+            className: "main-tool-bar--scrolled",
+          },
+          markers: false,
+        },
+      });
+    },
+```
 
 ## Изначальный проект на Figma
 
