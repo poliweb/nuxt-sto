@@ -45,7 +45,7 @@
 Vue, Nuxt js, JAMstack.
 Думайте о обо мне как о продолжении вашей команды.
 
-# Мой принцип: Lifelong learning
+# Мой принцип: LIFELONG LEARNING
 
 ## Build Setup
 
