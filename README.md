@@ -74,6 +74,14 @@
 
 ![Протатип в Figma](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Figma.jpg "Протатип в Figma")
 
+
+
+
+## Аудит сайта в Lighthouse
+
+Аудит сайта — без специальных подготовок к аудиту
+![Аудит сайта](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site_Audit.jpg "Аудит сайта в Lighthouse")
+
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
 Думайте о обо мне как о продолжении вашей команды.
