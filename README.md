@@ -36,6 +36,10 @@
 #### UI Фреймворк
 > tailwindcss
 
+#### Прочее
+> Prism,
+> webpack
+
 
 ## Изначальный проект на Figma
 
