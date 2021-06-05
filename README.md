@@ -1,6 +1,6 @@
 # Nuxt Sto
 
-<p align="center"><a href="https://poliweb.github.io/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="500"></a></p>
+<p align="center"><a href="https://poliweb.github.io/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
 
 ## Страница PoliWeb на GitHub
 
