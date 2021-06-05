@@ -1,8 +1,8 @@
 <template>
   <div>
     <header class="shadow h-screen header flex flex-wrap content-center margin_b_74">
-      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 -mt-20 text-center">
-        <h1 class="text-h1">
+      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 mt-0 text-center">
+        <h1 class="sm:text-sm sm:font-bold text-h1">
           СТО “БМВ-центр Коми”
         </h1>
         <p class="header_text_p">Техническое обслуживание и ремонт иномарок.<br>
@@ -95,5 +95,41 @@ export default {};
 
 .btn:hover {
   background: linear-gradient(94.78deg, #451046 11.19%, #df5950 93.72%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-h1 {
+    font-size: 48px;
+    line-height: 140%;
+  }
+  .header_text_p{
+    font-size: 38px;
+    line-height: 140%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text-h1 {
+    font-size: 38px;
+    line-height: 140%;
+  }
+  .header_text_p{
+    font-size: 28px;
+    line-height: 140%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header {
+
+  }
+  .text-h1 {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  .header_text_p{
+    font-size: 24px;
+    line-height: 140%;
+  }
 }
 </style>
