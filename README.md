@@ -2,7 +2,15 @@
 
 <p align="center"><a href="https://poliweb.github.io/" target="_blank"><img src="https://github.com/poliweb/nuxt-sto/blob/master/assets/img/STO_Site.jpg" width="100%"></a></p>
 
-## Страница PoliWeb на GitHub
+## Тестовое задание для веб разрабочика (Web Developer)
+
+В качестве тестового задания нужно будет сверстать адаптивно макет, доступ к которому предоставлен по ссылке ниже:
+"https://yadi.sk/d/gATTtURM-ASDXQ
+Во вложении исходник макетов Фигма.
+Задача - адаптивно сверстать, выложить себе на хостинг и прислать ссылку для просмотре.
+Указать как тестировали верстку."
+
+## Изначальный проект на Figma
 
 Я - консультирую по веб — проектам, специализирующийся на HTML, CSS, JavaScript и PHP. Я создаю веб-приложения, написанные на популярных фреймворках, таких как Laravel, Tailwindcss, Jetstream, laravel-livewire.
 Vue, Nuxt js, JAMstack.
