@@ -179,13 +179,13 @@
     </section>
     <section class="body-font hidden md:block">
       <div class="container px-5 py-24 mx-auto">
-        <div class="flex items-center text-left w-full mb-20">
+        <div class="flex items-center text-left w-full mb-20 mx-12">
           <div class="icon-heading -ml-5 mr-5">
             <img class="w-full" src="~/assets/img/icon-heading.png" alt="">
           </div>
           <h1 class="text-3xl md:text-5xl font-bold title-font text-white">Партнеры - топовые бренды</h1>
         </div>
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap mx-12">
           <!-- Верхний ряд ======================== -->
           <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-b border-white border-opacity-60">
             <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
