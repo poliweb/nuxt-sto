@@ -178,7 +178,7 @@
       </div>
     </section>
     <section class="body-font hidden md:block">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 mx-auto margin_b_74">
         <div class="flex items-center text-left w-full mb-20 mx-12">
           <div class="icon-heading -ml-5 mr-5">
             <img class="w-full" src="~/assets/img/icon-heading.png" alt="">
@@ -212,6 +212,37 @@
           <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l  border-white border-opacity-60">
             <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="body-font sm:-mt-16 md:mt-0">
+      <div class="container px-5 mx-auto margin_b_74">
+        <div class="flex flex-col text-center w-full">
+          <div class="sm:hidden md:block ">
+          <h1
+            class="text-3xl md:text-5xl font-bold title-font mb-8 text-white sm:hidden md:block"
+          >
+            Заказ обратного звонка
+          </h1>
+          <p class="mx-auto leading-relaxed text-base margin_b_60 sm:hidden md:block">
+            Больше 90% учеников прошли полный курс и смогли<br/> собрать свой первый компьютер
+          </p>
+          <div class="flex md:w-3/6 lg:w-2/6 sm:flex-row flex-col mx-auto px-8 sm:space-y-0 space-y-4 sm:px-0 items-end m-10">
+            <div class="relative flex-grow w-6/12 sm:hidden md:block">
+              <input type="tel" id="phone" name="phone" placeholder="+7 333 333-22-22" pattern="+[0-9]{1} [0-9]{3} [0-9]{3}-[0-9]{2}-[0-9]{2}" class="w-full bg-gray-100 bg-opacity-25 rounded-full focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-100 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out z-5">
+            </div>
+            <button class="btn_color rounded-full text-base focus:outline-none text-gray-100 py-2 px-6 leading-8 transition-colors duration-200 ease-in-out  z-10 -ml-10">Позвоните мне</button>
+
+          </div>
+          </div>
+          <button class="md:hidden sm:block btn_color rounded-full text-base focus:outline-none text-gray-100 py-2 px-6 leading-8 transition-colors duration-200 ease-in-out  z-10 mx-auto margin_b_50">Заказать звонок</button>
+          <div class="flex text-center mx-auto margin_b_50">
+            <a href=""><img src="~/assets/img/vk.png" alt="" class="mx-3.5"></a>
+            <a href=""><img src="~/assets/img/youtube.png" alt="" class="mx-3.5"></a>
+            <a href=""><img src="~/assets/img/facebook.png" alt="" class="mx-3.5"></a>
+            <a href=""><img src="~/assets/img/instagram.png" alt="" class="mx-3.5"></a>
+          </div>
+          <p class="text-base text-center">ООО “Автобизнес”</p>
         </div>
       </div>
     </section>
@@ -269,6 +300,10 @@ body {
   margin-bottom: 60px;
 }
 
+.margin_b_50 {
+  margin-bottom: 50px;
+}
+
 .margin_b_30 {
   margin-bottom: 30px;
 }
@@ -282,6 +317,17 @@ body {
   width: 126.61px;
   height: 125.44px;
 }
+
+.btn_color {
+  /* grad1 */
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+
+.btn_color:hover {
+  background: linear-gradient(94.78deg, #451046 11.19%, #df5950 93.72%);
+}
+
 @media only screen and (max-width: 640px) {
   /* place here CSS for when the screen is more than 1000px wide */
   .sm\:margin_b_0 {
