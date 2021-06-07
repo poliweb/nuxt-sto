@@ -177,6 +177,44 @@
         </div>
       </div>
     </section>
+    <section class="body-font hidden md:block">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex items-center text-left w-full mb-20">
+          <div class="icon-heading -ml-5 mr-5">
+            <img class="w-full" src="~/assets/img/icon-heading.png" alt="">
+          </div>
+          <h1 class="text-3xl md:text-5xl font-bold title-font text-white">Партнеры - топовые бренды</h1>
+        </div>
+        <div class="flex flex-wrap">
+          <!-- Верхний ряд ======================== -->
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-b border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l border-b border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 xl:border-l lg:border-l-0 border-b border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l border-b border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <!-- Нижний ряд ========================= -->
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 md:border-b  xl:border-b-0 border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l md:border-b  xl:border-b-0  border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l md:border-l-0 xl:border-l  border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 px-8 py-6 border-l  border-white border-opacity-60">
+            <img class="m-auto" src="~/assets/img/logo_brends.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -238,6 +276,11 @@ body {
 .wh_100 {
   width: 100px;
   height: 100px;
+}
+
+.icon-heading {
+  width: 126.61px;
+  height: 125.44px;
 }
 @media only screen and (max-width: 640px) {
   /* place here CSS for when the screen is more than 1000px wide */
