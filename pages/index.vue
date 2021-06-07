@@ -218,7 +218,7 @@
     <section class="body-font sm:-mt-16 md:mt-0">
       <div class="container px-5 mx-auto margin_b_74">
         <div class="flex flex-col text-center w-full">
-          <div class="sm:hidden md:block ">
+          <div class="hidden md:block ">
           <h1
             class="text-3xl md:text-5xl font-bold title-font mb-8 text-white sm:hidden md:block"
           >
