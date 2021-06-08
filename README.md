@@ -60,6 +60,7 @@ lg           1024px         @media (min-width: 1024px) { ... }
 xl           1280px         @media (min-width: 1280px) { ... }
 2xl          1536px         @media (min-width: 1536px) { ... }
 ```
+![Тестирование сайта на адоптивность](https://github.com/poliweb/nuxt-sto/blob/master/assets/img/adaptiv_sto.jpg "Главная страница тестового задания")
 
 ## Интеграция JS-фреймворк GSAP
 
