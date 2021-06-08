@@ -8,7 +8,7 @@
         <p class="header_text_p">Техническое обслуживание и ремонт иномарок.<br>
           Специализаия на БМВ. <br>
 Подбор, продажа и бесплатная замена масел.</p>
-        <button class="sm:hidden md:flex btn mx-auto focus:outline-none transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 z-5">Заказать звонок</button>
+        <button class="hidden md:flex btn mx-auto focus:outline-none transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 z-5">Заказать звонок</button>
         <NuxtLink to="/backcall" class="md:hidden btn mx-auto focus:outline-none transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 z-5">Заказать звонок</NuxtLink>
       </div>
     </header>
