@@ -170,7 +170,7 @@
                 <div>
                   <button
                     @click="toggleCart"
-                    class="Roboto max-w-xs flex items-center text-xs md:text-base rounded-full text-white focus:outline-none focus:shadow-solid bg-gradient-to-r from-pink-400 to-indigo-500 px-7 py-2 transition duration-700 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-400 transform hover:-translate-y-1 hover:scale-110"
+                    class="Roboto max-w-xs flex items-center text-xs md:text-base rounded-full text-white focus:outline-none focus:shadow-solid bg-gradient-to-r from-pink-400 to-indigo-500 px-7 py-2 transition duration-700 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-400"
                     id="user-menu"
                     aria-label="User menu"
                     aria-haspopup="true"
