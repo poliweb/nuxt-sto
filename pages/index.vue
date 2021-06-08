@@ -235,7 +235,7 @@
 
           </div>
           </div>
-          <button class="md:hidden sm:block btn_color rounded-full text-base focus:outline-none text-gray-100 py-2 px-6 leading-8 transition-colors duration-200 ease-in-out  z-10 mx-auto margin_b_50">Заказать звонок</button>
+          <NuxtLink to="/backcall" class="md:hidden sm:block btn_color rounded-full text-base focus:outline-none text-gray-100 py-2 px-6 leading-8 transition-colors duration-200 ease-in-out  z-10 mx-auto margin_b_50">Заказать звонок</NuxtLink>
           <div class="flex text-center mx-auto margin_b_50">
             <a href=""><img src="~/assets/img/vk.png" alt="" class="mx-3.5"></a>
             <a href=""><img src="~/assets/img/youtube.png" alt="" class="mx-3.5"></a>
@@ -302,6 +302,10 @@ body {
 
 .margin_b_50 {
   margin-bottom: 50px;
+}
+
+.margin_b_31 {
+  margin-bottom: 31px;
 }
 
 .margin_b_30 {

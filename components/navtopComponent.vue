@@ -163,11 +163,9 @@
       <div :class="[isOpen ? '' : 'hidden', 'md:hidden', 'bg-gray-800']">
         <div class="px-2 pt-2 pb-3 sm:px-3">
           <h5 class="text-center text-xs">меню</h5>
-          <a
-            href="#"
+          <NuxtLink to="/"
             class="block px-3 py-2 text-center text-2xl font-bold text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 border-b border-black"
-            >Главная</a
-          >
+            >Главная</NuxtLink>
           <a
             href="#"
             class="mt-1 block px-3 py-2 text-center text-2xl font-bold tracking-tight text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 border-b border-black"
