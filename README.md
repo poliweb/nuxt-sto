@@ -99,7 +99,7 @@ xl           1280px         @media (min-width: 1280px) { ... }
 Vue, Nuxt js, JAMstack.
 Думайте о обо мне как о продолжении вашей команды.
 
-<a href="https://focused-bhaskara-227f39.netlify.app/" target="_blank">Demo Project</a>
+<a href="https://sto-poliweb-007.netlify.app/">Demo Project</a>
 
 
 # Мой принцип: LIFELONG LEARNING
