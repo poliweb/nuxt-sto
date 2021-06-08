@@ -74,19 +74,19 @@
                         href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         role="menuitem"
-                        >Your Profile</a
+                        >Your orders</a
+                      >
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        >Payment</a
                       >
                       <a
                         href="#"
                         class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         role="menuitem"
                         >Settings</a
-                      >
-                      <a
-                        href="#"
-                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        role="menuitem"
-                        >Sign out</a
                       >
                     </div>
                   </div>
@@ -158,6 +158,69 @@
               </svg>
             </button>
           </div>
+          <!-- Button Корзина -->
+          <div class="block md:hidden">
+            <div class="ml-4 flex items-center md:ml-6">
+              <NuxtLink to="/backcall">
+                <img src="~/assets/img/Phone.png" alt="">
+              </NuxtLink>
+
+              <!-- Profile dropdown -->
+              <div class="ml-3 relative">
+                <div>
+                  <button
+                    @click="toggleCart"
+                    class="Roboto max-w-xs flex items-center text-xs md:text-base rounded-full text-white focus:outline-none focus:shadow-solid bg-gradient-to-r from-pink-400 to-indigo-500 px-7 py-2 transition duration-700 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-400 transform hover:-translate-y-1 hover:scale-110"
+                    id="user-menu"
+                    aria-label="User menu"
+                    aria-haspopup="true"
+                  >
+                    Корзина
+                  </button>
+                </div>
+                <transition
+                  enter-active-class="transition ease-out duration-100"
+                  enter-class="transform opacity-0 scale-95"
+                  enter-to-class="transform opacity-100 scale-100"
+                  leave-active-class="transition ease-in duration-75"
+                  leave-class="transform opacity-100 scale-100"
+                  leave-to-class="transform opacity-0 scale-95"
+                >
+                  <div
+                    v-show="isOpenCart"
+                    class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg"
+                  >
+                    <div
+                      class="py-1 rounded-md bg-white shadow-xs"
+                      role="menu"
+                      aria-orientation="vertical"
+                      aria-labelledby="user-menu"
+                    >
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        >Your orders</a
+                      >
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        >Payment</a
+                      >
+                      <a
+                        href="#"
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        role="menuitem"
+                        >Settings</a
+                      >
+                    </div>
+                  </div>
+                </transition>
+              </div>
+            </div>
+          </div>
+          <!-- // Button Корзина -->
         </div>
       </div>
       <div :class="[isOpen ? '' : 'hidden', 'md:hidden', 'bg-gray-800']">
@@ -245,7 +308,8 @@
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
+      isOpenCart: false,
     };
   },
   mounted() {
@@ -254,6 +318,9 @@ export default {
   methods: {
     toggle() {
       this.isOpen = !this.isOpen;
+    },
+    toggleCart() {
+      this.isOpenCart = !this.isOpenCart;
     },
     // For scrollTrigger
     animateOnScroll() {
