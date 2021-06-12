@@ -39,13 +39,13 @@
 > ***Nuxt.js***
 
 #### PaaS
-> Netlify
+> ***Netlify***
 
 #### UI Фреймворк
-> tailwindcss
+> ***tailwindcss***
 
 #### Прочее
-> webpack
+> ***webpack***
 
 ## Адаптивность сайта тестировано по сетке размеров экрана в PX
 
@@ -100,7 +100,7 @@ Vue, Nuxt js, JAMstack.
 <a href="https://sto-poliweb-007.netlify.app/">Demo Project</a>
 
 
-# Мой принцип: LIFELONG LEARNING
+# ***Мой принцип: LIFELONG LEARNING***
 
 ## Build Setup
 
